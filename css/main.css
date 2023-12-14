@@ -52,8 +52,8 @@ p {
 /******** HEADER STYLES ********/
 /* The widths are in a percentage! */
 header {
-	height: 110px;
-	margin: 0 auto;
+	/* height: 110px;
+	margin: 0 auto; */
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -63,6 +63,7 @@ header h1 {
 	width: 100%;
 	padding: 38px 0 20px 0;
 	border-bottom: 3px solid #77a466;
+	margin: 0;
 }
 
 header h1 span {
@@ -71,12 +72,13 @@ header h1 span {
 
 header nav {
 	/* float: right; */
-	padding: 46px 0;
+	padding: 20px 0;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
